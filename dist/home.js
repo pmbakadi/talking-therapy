@@ -558,7 +558,7 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar C = {};\nC.Page = {\n  HOME: \"home\"\n};\nC.website = \"Bounce Back Talking Therapy\";\nC.email = \"contact@email.com\";\nC.phone_1 = \"01992717847\";\nC.phone_2 = \"07951708786\";\n/* harmony default export */ __webpack_exports__[\"default\"] = (C);\n\n//# sourceURL=webpack:///./src/constants.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar C = {};\nC.Page = {\n  HOME: \"home\"\n};\nC.website = \"Bounce Back Talking Therapy\";\nC.email = \"info@talking-therapy\";\nC.phone_1 = \"+44 1992 717847\";\nC.phone_2 = \"+44 7951 708786\";\n/* harmony default export */ __webpack_exports__[\"default\"] = (C);\n\n//# sourceURL=webpack:///./src/constants.js?");
 
 /***/ }),
 
