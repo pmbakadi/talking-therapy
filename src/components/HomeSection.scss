@@ -1,0 +1,24 @@
+@import "../theming";
+
+#home {
+  position: relative;
+  #home-wrapper {
+    @extend .pl-2;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+
+    .display-4 {
+      @extend .font-weight-bolder;
+      font-size: 2.5rem;
+    }
+
+    .home-description {
+      @extend .font-weight-lighter;
+      @extend .ml-0;
+      @extend .pl-0;
+      @extend .pt-2;
+      font-size: 80%;
+    }
+  }
+}

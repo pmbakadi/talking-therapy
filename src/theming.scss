@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////
+// Theming
+////////////////////////////////////////////////////////
+
+$theme-colors: (
+  "primary": #ef6339,
+  "primary-dark": #af330e,
+  "secondary": #68669e,
+  "success": #5ae279,
+  "danger": #f5666d,
+  "warning": #fdfb5b,
+  "info": #4eb6f6,
+  "light": #f6f6f9,
+  "dark": #2a2a42
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+////////////////////////////////////////////////////////
+// Mixin And Definitions
+////////////////////////////////////////////////////////
+
+@mixin clear-link {
+  color: inherit;
+  cursor: inherit;
+  text-decoration: inherit;
+}
+
+@mixin no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge,
+                                  Opera and Firefox */
+}
+
+@import "bootstrap/scss/bootstrap";
+
+.text-sm {
+  font-size: 80%;
+}

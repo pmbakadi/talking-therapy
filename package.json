@@ -1,0 +1,38 @@
+{
+  "name": "dawn-in-counseling",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && npx webpack"
+  },
+  "author": "",
+  "contributors": [
+    {
+      "name": "Robert M. Vunabandi",
+      "email": "robertv@mit.edu",
+      "url": "https://www.robertvunabandi.com"
+    }
+  ],
+  "license": "Copyright (c) Dawn in Counseling. All Rights Reserved.",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.5.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.12.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

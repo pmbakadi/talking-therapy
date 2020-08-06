@@ -1,0 +1,34 @@
+@import "../theming";
+
+#contact {
+  background-image: linear-gradient(to bottom right, map-get($theme-colors, "primary"), map-get($theme-colors, "primary-dark"));
+  .icon-col {
+    .icon-wrapper {
+      @extend .align-middle;
+      background-color: white;
+      border-radius: 1000rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+  }
+
+  .contact-value-col {
+    position: relative;
+    .contact-value-wrapper {
+      white-space: nowrap;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+
+      .email {
+        @include clear-link;
+        @extend .text-white;
+      }
+      .email:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "./theming";
+
+////////////////////////////////////////////////////////
+// General HTML
+////////////////////////////////////////////////////////
+
+* {
+  box-sizing: border-box;
+  transition: 150ms !important;
+  font-family: 'Merriweather', serif;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  #content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    // remove input number spinners, we pretty much never need them
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type=number] {
+      -moz-appearance:textfield;
+    }
+  }
+
+  footer {
+    flex-shrink: 0;
+  }
+}
